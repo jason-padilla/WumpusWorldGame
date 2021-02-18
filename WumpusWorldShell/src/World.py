@@ -68,13 +68,16 @@ class World():
     
     def run ( self ):
         while self.__score >= -1000:
-            if self.__debug or self.__manualAI:
-                self.__printWorldInfo()
+            # if self.__debug or self.__manualAI:
+            #     self.__printWorldInfo()
                 
-                if not self.__manualAI:
+            #     if not self.__manualAI:
                     # Pause the game, only if manualAI isn't on
                     # because manualAI pauses for us
-                    input("Press ENTER to continue...")
+            print("")
+            print("")
+            self.__printWorldInfo()
+            input("")
             # Get the move
             self.__lastAction = self.__agent.getAction (
 														self.__board[self.__agentX][self.__agentY].stench,
