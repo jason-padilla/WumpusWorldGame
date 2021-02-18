@@ -60,9 +60,9 @@ to go back home and climb out even if the Agent doesn't have the Gold.
           <li> -1 point for each action made </li>
           <li> -11 points for shooting an arrow </li>
           <li>-1000 points for falling into a Pit </li>
-          <li>-1000 points for running into the Wumpus </li>
-          <li>+1000 points for finding and grabbing the Gold</li>
-          <li>Game Ends when the agent climbs out or dies</li>
+          <li>-1000 points for Wumpus encounter</li>
+          <li>+1000 points for finding the Gold</li>
+          <li>Game Ends when the agent climbs or dies</li>
         </ul>
       </td>
     </tr>
