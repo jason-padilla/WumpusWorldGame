@@ -62,7 +62,7 @@ to go back home and climb out even if the Agent doesn't have the Gold.
           <li>-1000 points for falling into a Pit </li>
           <li>-1000 points for Wumpus encounter</li>
           <li>+1000 points for finding the Gold</li>
-          <li>Game Ends when the agent climbs or dies</li>
+          <li>Game Ends when agent climbs or dies</li>
         </ul>
       </td>
     </tr>
